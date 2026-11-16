@@ -18,6 +18,26 @@
   var status = document.getElementById("form-status");
   form.addEventListener("submit", function (e) {
     e.preventDefault();
+
+    // validation: only email + phone are mandatory
+    var email = form.elements["email"],
+        phone = form.elements["phone"];
+    var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.value.trim());
+    var phoneOk = phone.value.replace(/\D/g, "").length >= 10;
+    form.querySelectorAll(".invalid").forEach(function (el) { el.classList.remove("invalid"); });
+    if (!emailOk) email.classList.add("invalid");
+    if (!phoneOk) phone.classList.add("invalid");
+    var first = form.querySelector(".invalid");
+    if (first) {
+      first.focus();
+      var missing = [];
+      if (!emailOk) missing.push("a valid email");
+      if (!phoneOk) missing.push("a valid 10-digit phone number");
+      status.className = "err";
+      status.textContent = "Please fill in " + missing.join(" and ") + ".";
+      return;
+    }
+
     var key = form.querySelector('[name="access_key"]').value;
     if (!key || key.indexOf("PASTE_") === 0) {
       status.className = "err";

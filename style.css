@@ -106,6 +106,8 @@ input,textarea{font:inherit;padding:12px 14px;border:1px solid var(--line);borde
 input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
 textarea{min-height:130px;resize:vertical}
 .hp{position:absolute;left:-9999px}
+input.invalid,textarea.invalid{border-color:#b3261e;background:#fff7f5}
+#form-status.err{color:#b3261e}
 #form-status{font-weight:500;min-height:1.4em}
 #form-status.ok{color:#2f7a3a}
 #form-status.err{color:#b3261e}
