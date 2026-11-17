@@ -2,83 +2,375 @@
 <html lang="en-IN">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Roti Factory - Roti, Chapati, Phulka, Flatbreads, Bread, Indian Bread</title>
-<meta name="description" content="Fully automated Roti making plant, setup with the latest hygiene and quality standards. Leading supplier of Rotis in bulk quantities in Delhi NCR.">
-<meta name="theme-color" content="#f2eedf">
-<meta name="google-site-verification" content="p2x0LcrmNkjq-Ou--6rIGGnB3i4dapjcu4SXZLHtZ24">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Roti Factory">
-<meta property="og:title" content="Roti Factory">
-<meta property="og:description" content="Fully automated Roti making plant, setup with the latest hygiene and quality standards. Leading supplier of Rotis in bulk quantities in Delhi NCR.">
-<meta property="og:url" content="https://www.rotifactory.in/">
-<meta property="og:image" content="https://www.rotifactory.in/img/hero.jpg">
-<meta property="og:locale" content="en_IN">
+<title>Roti Factory — Premium Bulk Roti Supplier in Delhi NCR</title>
+<meta name="description" content="Fully automated Roti making plant. Leading bulk supplier of Rotis, Chapati, Phulka to catering, corporate, hotels and hospitals in Delhi NCR.">
+<meta name="theme-color" content="#0a0e1a">
+<link rel="icon" href="img/logo.png" type="image/png">
+<link rel="shortcut icon" href="favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=12">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=14">
 </head>
 <body>
-<header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="index.html"><img src="img/logo.png" alt="Roti Factory" width="460" height="307"></a>
-    <button class="menu-btn" aria-label="Menu" aria-expanded="false">Menu</button>
+
+<!-- ===== Sticky Nav ===== -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="brand" href="#top"><img src="img/logo.png" alt="Roti Factory" width="180" height="120"></a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
     <nav>
       <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="quality-protocols.html">Quality Protocols</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="#about" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('about').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">About</a></li>
+        <li><a href="#products" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('products').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Products</a></li>
+        <li><a href="#quality" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('quality').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Quality</a></li>
+        <li><a href="#team" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('team').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Team</a></li>
+        <li><a href="#clients" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('clients').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Clients</a></li>
+        <li><a href="#contact" class="nav-cta" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('contact').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
-<main>
-  <div class="hero">
-    <div class="wrap">
-      <h1>Everyone loves to eat Rotis when someone else makes them</h1>
-      <a class="btn" href="contact-us.html">Contact someone else</a>
+<!-- ===== Hero ===== -->
+<section class="hero" id="hero">
+  <div class="hero-mesh" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-content">
+    <div class="hero-badge">Since 2014 · Delhi NCR</div>
+    <h1 class="hero-title">Everyone loves to eat <span class="grad">Rotis</span> when someone else makes them.</h1>
+    <p class="hero-sub">Fully automated Roti making plant, setup with the latest hygiene and quality standards. Leading supplier of Rotis in bulk quantities to catering, corporate, hotels and hospitals.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#contact" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('contact').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Contact someone else →</a>
+      <a class="btn btn-ghost" href="#products" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('products').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Explore our rotis</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>2014</strong><span>Established</span></div>
+      <div><strong>5000+</strong><span>sq.ft plant</span></div>
+      <div><strong>24+</strong><span>Esteemed clients</span></div>
+      <div><strong>100%</strong><span>Satisfaction</span></div>
     </div>
   </div>
+  <a class="scroll-cue" href="#about" aria-label="Scroll down">↓</a>
+</section>
 
-  <section>
-    <div class="wrap">
-      <div class="eyebrow">About Us</div>
-      <div class="grid three">
-        <article class="card">
-          <div class="img"><img src="img/about-auto-roti.jpg" alt="Roti being made on an automatic machine" loading="lazy"></div>
-          <div class="body">
-            <h3>Who we are</h3>
-            <p>Roti Factory is a leading supplier of Rotis in bulk in Delhi NCR since 2014</p>
-            <a class="btn ghost" href="quality-protocols.html#technology">Factory Visit</a>
-          </div>
-        </article>
-        <article class="card">
-          <div class="img"><img src="img/what-we-do.jpg" alt="Freshly made rotis" loading="lazy"></div>
-          <div class="body">
-            <h3>What we do</h3>
-            <p>We make the best Rotis in the country.</p>
-            <p>Our Rotis melt in your mouth and some leave a hint of flavour too!</p>
-            <a class="btn ghost" href="products.html">Explore our rotis</a>
-          </div>
-        </article>
-        <article class="card">
-          <div class="img"><img src="img/how-we-do.jpg" alt="Roti Factory production line" loading="lazy"></div>
-          <div class="body">
-            <h3>How we do</h3>
-            <p>Our USP - Safety at all-times, Quality Rotis every-time and Deliveries on-time</p>
-            <a class="btn ghost" href="quality-protocols.html#quality-control">Click for audit</a>
-          </div>
-        </article>
+<!-- ===== About ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">About Us</span>
+      <h2>Who we are, what we do, how we do.</h2>
+      <p class="lede">Roti Factory is a leading supplier of Rotis in bulk in Delhi NCR since 2014 — safety at all times, quality Rotis every time, deliveries on time.</p>
+    </div>
+    <div class="grid3">
+      <article class="card glass">
+        <div class="card-icon">🫓</div>
+        <h3>Who we are</h3>
+        <p>Roti Factory is a leading supplier of Rotis in bulk in Delhi NCR since 2014.</p>
+        <a class="btn btn-sm btn-ghost" href="#quality" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('quality').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Factory Visit</a>
+      </article>
+      <article class="card glass">
+        <div class="card-icon">✨</div>
+        <h3>What we do</h3>
+        <p>We make the best Rotis in the country. Our Rotis melt in your mouth and some leave a hint of flavour too!</p>
+        <a class="btn btn-sm btn-ghost" href="#products" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('products').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Explore our rotis</a>
+      </article>
+      <article class="card glass">
+        <div class="card-icon">⚡</div>
+        <h3>How we do</h3>
+        <p>Our USP — Safety at all-times, Quality Rotis every-time and Deliveries on-time.</p>
+        <a class="btn btn-sm btn-ghost" href="#quality" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('quality').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Click for audit</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Products ===== -->
+<section class="section section-alt" id="products">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Products</span>
+      <h2>Rotis for every plate.</h2>
+    </div>
+    <div class="grid2">
+      <article class="product-card">
+        <div class="product-tag">Household</div>
+        <h3>Plain Rotis — Air sealed pouch</h3>
+        <p>Better than home-style puffed Rotis. These are made with just wheat flour, water &amp; vegetable oil. Available as part of weekly supply. We provide 7 day solution for Rotis for households. The rotis remain fresh in your freezer for a minimum of 7 days. Call us and share your requirement. And maybe we will be able to send you a free trial.</p>
+      </article>
+      <article class="product-card">
+        <div class="product-tag">Institutional</div>
+        <h3>Plain Rotis — Institutional pack</h3>
+        <p>Better than home-style puffed Rotis. These are made with just wheat flour, water &amp; vegetable oil. No other ingredients are added. Available in weight ranging from 30 - 50 gms. Nutrient value details are available with us and can be shared upon request.</p>
+      </article>
+      <article class="product-card">
+        <div class="product-tag">Flavour</div>
+        <h3>Flavour Rotis</h3>
+        <p>Our all time hit flavour is Methi Roti. We developed this flavour upon request from an industry giant. Dehydrated Methi is used to give a flavourful taste. Best served as a roll to guests, preferred weight is 40 gms. We also make Pudina Roti, which also fares well as a roll. Other customizations also possible.</p>
+      </article>
+      <article class="product-card">
+        <div class="product-tag">Partner</div>
+        <h3>Rumali / Paranthas</h3>
+        <p>Rumali rotis &amp; Paranthas (Plain &amp; Stuffed) are made by our partner vendor. Unfortunately there is no automation currently for this product, hence these are made by hand. However, all necessary protocols of production are followed to ensure a hygienic product.</p>
+      </article>
+    </div>
+
+    <div class="details-grid">
+      <div class="detail">
+        <h4>Heating Instructions</h4>
+        <ul>
+          <li>Best results in a modern &amp; efficient way — put the bundle of 25 Rotis in a steamer for 30 seconds</li>
+          <li>Conventional way — heat the tawa on high flame and warm both sides of Roti for 10 seconds each</li>
+          <li>If using microwave — wrap 10 Rotis in butter paper and time it for 15 seconds in the microwave</li>
+        </ul>
+      </div>
+      <div class="detail">
+        <h4>Raw Materials used</h4>
+        <ul>
+          <li>Wheat Flour — best quality MP grains, processed in a hygienic &amp; modern plant in MP</li>
+          <li>Oils — Rath / Fortune / Nature Fresh</li>
+          <li>Water — RO water used, in-house plant</li>
+        </ul>
+      </div>
+      <div class="detail">
+        <h4>Packaging Options</h4>
+        <ul>
+          <li>Butter paper &amp; LDPE pouches or only LDPE pouches</li>
+          <li>Aluminium Foils — rolls or flat packing for Roti</li>
+          <li>Air-tight seal done by Innoseal packers</li>
+        </ul>
       </div>
     </div>
-  </section>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#contact" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('contact').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Share your requirement →</a>
+    </div>
 
-  <section class="alt"><div class="wrap">
-    <h2>Our Esteemed Clients</h2>
-    <div class="clients">
+    <div class="label-block">
+      <div class="label-text">
+        <span class="eyebrow">Nutrition &amp; Ingredients</span>
+        <h3>Ready-to-Eat Roti — Label</h3>
+        <p>Full ingredient list, nutritional values and shelf-life details as printed on our retail pack. Click the label to view full size.</p>
+      </div>
+      <a class="label-img" href="img/nutrition-label.png" target="_blank" rel="noopener">
+        <img src="img/nutrition-label.png" alt="Roti Factory Ready-to-Eat Label — ingredients and nutrition" loading="lazy">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Quality ===== -->
+<section class="section" id="quality">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Quality Protocols</span>
+      <h2>Good Manufacturing Practices.</h2>
+      <p class="lede">In-house technology, hygienic plant, documented quality control, premium raw materials, and trained staff.</p>
+    </div>
+
+    <article class="split-block" id="technology">
+      <div class="split-text">
+        <span class="eyebrow">In-house Technology</span>
+        <h3>Roti Making Machine</h3>
+        <p><em>We are basically engineers by profession, so we design our own automation for RF.</em></p>
+        <p>Roti Factory is part of the umbrella brand of KM Group, which have offices located in Delhi, Rajasthan &amp; Uttarakhand. We have installed Roti making machines manufactured by the KM Group. Our machines are designed and developed under numerous patents in India. Our machines are manufactured with high quality Food Grade materials such as Stainless Steel, Aluminium &amp; PTFE (Teflon). The machines are an integral part of our family of KM Group, hence we have a robust and strict control over quality &amp; performance of the same. We ensure our maintenance team knows the job well and are employed on a regular basis to ensure zero breakdown for our production unit.</p>
+        <h4>Few Critical Points</h4>
+        <ul>
+          <li>Machine parts that come in contact with Rotis are made up of food grade stainless steel, aluminium or teflon. Also, we ensure that these parts are replaced before the end of the lifespan in order to not affect the quality of our Rotis</li>
+          <li>All the electrical components installed on the machines are standard &amp; provided by reputable companies in India</li>
+          <li>Hydraulic systems, motors, temperature controller, etc are all sourced from reputable brands such as Bosch, Bonfiglioli, Selec, etc.</li>
+          <li>Use PNG for heating &amp; temperature is automatically maintained to provide consistent quality of Rotis</li>
+        </ul>
+        <p>For more queries / questions, please visit <a href="http://www.chapatiqueen.com" rel="noopener">www.chapatiqueen.com</a> to see our latest models of kitchen equipments.</p>
+      </div>
+      <div class="split-media"><img src="img/machine.jpg" alt="Roti making machine" loading="lazy"></div>
+    </article>
+
+    <article class="split-block reverse" id="safety">
+      <div class="split-media"><img src="img/plant.jpg" alt="Roti Factory production area" loading="lazy"></div>
+      <div class="split-text">
+        <span class="eyebrow">Safety - Quality - Timely Delivery</span>
+        <h3>Roti Factory</h3>
+        <p><em>Operating out of Udyog Vihar, Roti Factory is spread over 5,000 sft of production area.</em></p>
+        <p>Roti Factory was established in 2014 as a sister concern of the already established KM Foods (2006). Initial operations were setup in Rangpuri, Delhi and a second production plant was setup in Gurugram in early 2018. We are a leading supplier of Rotis in bulk in Delhi NCR since 2014.</p>
+        <p>We take immense pride in our USP, which is <strong>Safety of our staff &amp; plant at all times, Quality Rotis every time and ensuring the Deliveries to our clients happen on-time.</strong> Some of the key highlights undertaken to maintain our USP are briefly mentioned below:</p>
+        <ul>
+          <li>Our plant is run on PNG, which is made available to us through gas pipeline from 'Haryana City Gas'. This ensures safety for our plant as it eliminates the risk of handling LPG cylinders</li>
+          <li>Our machinery has covers that ensure that the moving / mechanical parts are not exposed to the staff</li>
+          <li>Our staff is encouraged to carry out all activities of the day keeping "Safety" in mind</li>
+          <li>Our plant is established according to the latest management standards to provide hygienic &amp; premium quality Rotis</li>
+          <li>All processes are undertaken according to the standards laid out in ISO &amp; HACCP to ensure safe &amp; smooth operations</li>
+          <li>All requisite certification is available, such as FSSAI, Shop &amp; Establishment Act, PF Act, ESI Act, etc.</li>
+          <li>Our delivery team is comprised of 3 EECO cargo &amp; 2 bikers. Their vehicles are checked properly and our supervisors ensure they carry the necessary documents by the law.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="split-block" id="quality-control">
+      <div class="split-text">
+        <span class="eyebrow">Quality Control</span>
+        <h3>Quality Assurance</h3>
+        <p><em>All processes are documented to keep a strict control over the quality parameters.</em></p>
+        <p>All our teams, production, packaging, delivery, client-management &amp; house-keeping have a common goal in mind - Quality Assurance. Some of the key highlights undertaken to maintain our quality standards are briefly mentioned below:</p>
+        <ul>
+          <li><strong>Compliance</strong> - we have site-specific FSSAI license and medical certificate for our employees</li>
+          <li><strong>Infrastructure</strong> - visitor policy maintained, premise is adequately lit, well ventilated, overall cleanliness is maintained</li>
+          <li><strong>Personal Hygiene</strong> - staff maintains high degree of personal hygiene and no jewellery policy is followed</li>
+          <li><strong>Waste Disposal</strong> - swing operated waste bins are installed, with liners for the waste bins</li>
+          <li><strong>Procurement of Raw Materials</strong> - all raw materials procured are in accordance with the FSSAI labelling requirement</li>
+          <li><strong>Food Contact Surface</strong> - cleaned using industrially approved chemicals</li>
+          <li><strong>Pest Control measures</strong> - done by "Rentokil-PCI" on a weekly basis as part of an annual contract</li>
+          <li><strong>Storage of Raw Materials</strong> - clean storage area, free from pests and FIFO &amp; FEFO are followed</li>
+          <li><strong>Management, Supervision &amp; Training</strong> - customer complaints mechanism in place, regular training to staff provided</li>
+          <li><strong>Medical Facility</strong> - staff is enrolled with ESI for long term medical benefits, also fully equipped first aid kit available on site</li>
+          <li><strong>Testing reports</strong> - bi-annual testing of water &amp; Roti done through a reputed testing lab</li>
+          <li><strong>Standard Operating Procedure</strong> - detailed SOPs for all steps in Roti processing are in place to ensure proper management</li>
+        </ul>
+      </div>
+      <div class="split-media seal"><img src="img/satisfaction-badge.png" alt="100% Satisfaction Guaranteed" loading="lazy"></div>
+    </article>
+
+    <article class="split-block reverse" id="raw-materials">
+      <div class="split-media"><img src="img/equipment.jpg" alt="Equipment and raw materials" loading="lazy"></div>
+      <div class="split-text">
+        <span class="eyebrow">Premium Quality Raw Materials</span>
+        <h3>Equipment &amp; Raw Materials</h3>
+        <p><em>We use the highest grade raw materials and install the best equipment for our processes.</em></p>
+        <p>All the raw materials &amp; equipment used / installed are food grade certified. We use premium wheat flour, oils, RO water as raw materials for the production of Rotis. Some of the key highlights of our Raw Materials / Equipment are briefly mentioned below:</p>
+        <ul>
+          <li><strong>Raw Materials</strong> - wheat flour is sourced from a reputable brand with a modern plant adhering to all necessary quality protocols. The Wheat Flour is obtained as per the FSSAI norms</li>
+          <li><strong>Potable water</strong> - 2 RO systems installed with a combined capacity of 500 ltrs / hour. Regular service schedules are in place to ensure the machines work efficiently. Also, our water is tested twice in a year for micro-biological parameters. Certificates available</li>
+          <li><strong>Packaging Material</strong> - we use food grade butter paper and 51 microns LDPE food grade bags. Certificates available. We use a pouch sealer, which makes a better sealed pouch</li>
+          <li><strong>Storage Equipment</strong> - we use plastic pallets with a minimum height of 6" from the ground to stack up our wheat flour bags. For other raw material, all FSSAI laid norms are followed to store, use &amp; label. Also, FIFO &amp; FEFO are followed</li>
+          <li><strong>Quality Testing</strong> - we use weighing machines that are calibrated. Our temperature controllers are tested and calibrated, and issued a certificate once a year. Also, a metal detector is used before Roti delivery, and it can detect piece of metal, if any.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="split-block" id="staff-training">
+      <div class="split-text">
+        <span class="eyebrow">Accountability &amp; Quality Control</span>
+        <h3>Staff Training</h3>
+        <p><em>We have a bi-monthly training session for our staff for quality, team-work &amp; soft skills.</em></p>
+        <p>We use an in-house trainer who provides training to our staff twice in a month. She is a certified trainer and takes 2 sessions of 1.5 hours each every fortnight. The topics that she focusses on are as highlighted below:</p>
+        <ul>
+          <li><strong>Accountability</strong> - important aspect in a production job is to maintain accountability that gives a better control over the production</li>
+          <li><strong>Team work</strong> - our dedicated staff works best when they work in a team and understand the importance of team-work</li>
+          <li><strong>Quality Parameters</strong> - it's very important to sensitize our staff to the need of a hygienic product in the food industry</li>
+          <li><strong>Maintenance Jobs</strong> - monthly schedule of training our maintenance staff - done by professional technicians from KM Group</li>
+        </ul>
+      </div>
+      <div class="split-media"><img src="img/staff-training.jpg" alt="Staff training session" loading="lazy"></div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== Team ===== -->
+<section class="section section-alt" id="team">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">The people behind it</span>
+      <h2>Our Management Team</h2>
+    </div>
+    <div class="team-grid">
+      <article class="team-card">
+        <div class="avatar">GM</div>
+        <h3>Geeta Mehta</h3>
+        <p class="role">Quality Audit Lead</p>
+        <p>Fondly known as 'Badi Madam', led this initiative as an experiment in 2006. With a single machine &amp; a few dedicated personnel, she successfully created a business of it. Currently, she heads our quality audit team and works closely with all the team leaders across departments. She ensures that our production processes are strictly followed, in order to make consistent Rotis, that are soft, well-cooked &amp; flavourful. Also, she helps train our staff on a regular basis.</p>
+      </article>
+      <article class="team-card">
+        <div class="avatar">KB</div>
+        <h3>Kusum Bala</h3>
+        <p class="role">Production Head</p>
+        <p>Fondly known as 'Choti Madam', she was the first person to join the team led by Mrs. Geeta. She is by far the most experienced person in our Roti industry. She has worked diligently for over 12 years to completely handle production, order management, packaging, HR and client dealing. She can tell just by looking at a Roti, if it is fit to clear our internal quality audit.</p>
+      </article>
+      <article class="team-card">
+        <div class="avatar">KS</div>
+        <h3>Kapil Sharma</h3>
+        <p class="role">Operations &amp; Quality</p>
+        <p>He joined the Roti business in 2013 as a supervisor on our production floor. Since then he has gained extensive experience in handling production, packaging, clients, orders and quality control. He is the first disciple of 'Choti Madam'. He has an important job to connect our production to packaging to delivery to client satisfaction.</p>
+      </article>
+      <article class="team-card">
+        <div class="avatar">SM</div>
+        <h3>Saurabh Mehta</h3>
+        <p class="role">Founder &amp; Director</p>
+        <p>Engineer &amp; MBA with over 8 years of work experience in corporate. Left a high profile corporate career as soon as the entrepreneurial bug hit him. In the year 2011, he joined KM Foods to help the family business grow. In 2014 he started Roti Factory, an off-shoot of KM Foods, to fully automate the production of Rotis. Over the years he has been instrumental in expanding operations in Delhi NCR. Roti Factory is run in accordance with the latest standards of compliance in food industry.</p>
+      </article>
+    </div>
+
+    <div class="core-team">
+      <span class="eyebrow">Our Core Team</span>
+      <h2>Food team, quality jobs, trained staff</h2>
+      <p class="lede">Our team primarily comprise of young boys who joined us at inception and have trained with us over the last decade. Most of them are from humble backgrounds from Rajasthan, UP, Bihar, Assam &amp; Uttarakhand. They have been carefully chosen &amp; trained adequately so that they understand the fine nuances of our Food Industry. Also, they all make a great team together!</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Clients ===== -->
+<section class="section" id="clients">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Esteemed Clients</span>
+      <h2>Trusted by leading brands.</h2>
+    </div>
+    <div class="client-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <img loading="lazy" src="img/clients/westin.png" alt="">
+        <img loading="lazy" src="img/clients/taj.png" alt="">
+        <img loading="lazy" src="img/clients/tulip.png" alt="">
+        <img loading="lazy" src="img/clients/the-grand.png" alt="">
+        <img loading="lazy" src="img/clients/radisson-hotel-group.png" alt="">
+        <img loading="lazy" src="img/clients/max-healthcare.png" alt="">
+        <img loading="lazy" src="img/clients/compass-group.png" alt="">
+        <img loading="lazy" src="img/clients/hmshost.png" alt="">
+        <img loading="lazy" src="img/clients/vivanta.png" alt="">
+        <img loading="lazy" src="img/clients/ics-hospitality.png" alt="">
+        <img loading="lazy" src="img/clients/sodexo.png" alt="">
+        <img loading="lazy" src="img/clients/cook-house.png" alt="">
+        <img loading="lazy" src="img/clients/hyatt-regency.webp" alt="">
+        <img loading="lazy" src="img/clients/roseate-hotels-resorts.png" alt="">
+        <img loading="lazy" src="img/clients/nekta-food-solutions.png" alt="">
+        <img loading="lazy" src="img/clients/om-sweets.png" alt="">
+        <img loading="lazy" src="img/clients/devyani.png" alt="">
+        <img loading="lazy" src="img/clients/jw-marriott.png" alt="">
+        <img loading="lazy" src="img/clients/blk-max.png" alt="">
+        <img loading="lazy" src="img/clients/encalm-hospitality.png" alt="">
+        <img loading="lazy" src="img/clients/delhi-land-finance.png" alt="">
+        <img loading="lazy" src="img/clients/gupta-hospitality-services.png" alt="">
+        <img loading="lazy" src="img/clients/aloft.png" alt="">
+        <img loading="lazy" src="img/clients/akshaya-patra.png" alt="">
+        <!-- duplicate for seamless loop -->
+        <img loading="lazy" src="img/clients/westin.png" alt="">
+        <img loading="lazy" src="img/clients/taj.png" alt="">
+        <img loading="lazy" src="img/clients/tulip.png" alt="">
+        <img loading="lazy" src="img/clients/the-grand.png" alt="">
+        <img loading="lazy" src="img/clients/radisson-hotel-group.png" alt="">
+        <img loading="lazy" src="img/clients/max-healthcare.png" alt="">
+        <img loading="lazy" src="img/clients/compass-group.png" alt="">
+        <img loading="lazy" src="img/clients/hmshost.png" alt="">
+        <img loading="lazy" src="img/clients/vivanta.png" alt="">
+        <img loading="lazy" src="img/clients/ics-hospitality.png" alt="">
+        <img loading="lazy" src="img/clients/sodexo.png" alt="">
+        <img loading="lazy" src="img/clients/cook-house.png" alt="">
+        <img loading="lazy" src="img/clients/hyatt-regency.webp" alt="">
+        <img loading="lazy" src="img/clients/roseate-hotels-resorts.png" alt="">
+        <img loading="lazy" src="img/clients/nekta-food-solutions.png" alt="">
+        <img loading="lazy" src="img/clients/om-sweets.png" alt="">
+        <img loading="lazy" src="img/clients/devyani.png" alt="">
+        <img loading="lazy" src="img/clients/jw-marriott.png" alt="">
+        <img loading="lazy" src="img/clients/blk-max.png" alt="">
+        <img loading="lazy" src="img/clients/encalm-hospitality.png" alt="">
+        <img loading="lazy" src="img/clients/delhi-land-finance.png" alt="">
+        <img loading="lazy" src="img/clients/gupta-hospitality-services.png" alt="">
+        <img loading="lazy" src="img/clients/aloft.png" alt="">
+        <img loading="lazy" src="img/clients/akshaya-patra.png" alt="">
+      </div>
+    </div>
+    <div class="client-grid">
       <img loading="lazy" src="img/clients/westin.png" alt="The Westin Gurgaon New Delhi">
       <img loading="lazy" src="img/clients/taj.png" alt="Taj Hotels">
       <img loading="lazy" src="img/clients/tulip.png" alt="Tulip - The Service People">
@@ -104,53 +396,111 @@
       <img loading="lazy" src="img/clients/aloft.png" alt="Aloft Hotels">
       <img loading="lazy" src="img/clients/akshaya-patra.png" alt="Akshaya Patra">
     </div>
-  </div></section>
+  </div>
+</section>
 
-  <section class="alt">
-    <div class="wrap">
-      <div class="eyebrow">The people behind it</div>
-      <h2>Our Management Team</h2>
-      <div class="grid two" style="margin-top:28px">
-        <article class="person">
-          <div class="avatar">GM</div>
-          <h3>Geeta Mehta</h3>
-          <p>Fondly known as 'Badi Madam', led this initiative as an experiment in 2006. With a single machine &amp; a few dedicated personnel, she successfully created a business of it. Currently, she heads our quality audit team and works closely with all the team leaders across departments. She ensures that our production processes are strictly followed, in order to make consistent Rotis, that are soft, well-cooked &amp; flavourful. Also, she helps train our staff on a regular basis.</p>
-        </article>
-        <article class="person">
-          <div class="avatar">KB</div>
-          <h3>Kusum Bala</h3>
-          <p>Fondly known as 'Choti Madam', she was the first person to join the team led by Mrs. Geeta. She is by far the most experienced person in our Roti industry. She has worked diligently for over 12 years to completely handle production, order management, packaging, HR and client dealing. She can tell just by looking at a Roti, if it is fit to clear our internal quality audit.</p>
-        </article>
-        <article class="person">
-          <div class="avatar">KS</div>
-          <h3>Kapil Sharma</h3>
-          <p>He joined the Roti business in 2013 as a supervisor on our production floor. Since then he has gained extensive experience in handling production, packaging, clients, orders and quality control. He is the first disciple of 'Choti Madam'. He has an important job to connect our production to packaging to delivery to client satisfaction.</p>
-        </article>
-        <article class="person">
-          <div class="avatar">SM</div>
-          <h3>Saurabh Mehta</h3>
-          <p>Engineer &amp; MBA with over 8 years of work experience in corporate. Left a high profile corporate career as soon as the entrepreneurial bug hit him. In the year 2011, he joined KM Foods to help the family business grow. In 2014 he started Roti Factory, an off-shoot of KM Foods, to fully automate the production of Rotis. Over the years he has been instrumental in expanding operations in Delhi NCR. Roti Factory is run in accordance with the latest standards of compliance in food industry.</p>
-        </article>
+<!-- ===== Contact ===== -->
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Contact Us</span>
+      <h2>Get in touch.</h2>
+      <p class="lede">We strive to stay connected with our clients. If you have a question about our Rotis, or want to see if we match your specific needs, do send us a message, or give us a call.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-form-card">
+        <h3>Send a message</h3>
+        <form id="contact-form" novalidate>
+          <input type="hidden" name="access_key" value="d5fccc11-8921-42d3-9088-ae8025f32817">
+          <input type="hidden" name="subject" value="New enquiry from rotifactory.in">
+          <input type="hidden" name="from_name" value="Roti Factory Website">
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <label>Name
+            <input type="text" name="name" autocomplete="name">
+          </label>
+          <label>Email *
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+          <label>Phone *
+            <input type="tel" name="phone" required autocomplete="tel">
+          </label>
+          <label>Message
+            <textarea name="message"></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send message →</button>
+          <div id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+      <div class="contact-info">
+        <div class="info-card">
+          <h4>Roti Factory</h4>
+          <p><a href="https://share.google/IOlHJ1TjLToH0IFwC" rel="noopener" title="View on Google Maps">169, Udyog Vihar Phase 1, Sector 20, Gurugram, Haryana 122016</a></p>
+        </div>
+        <div class="info-card">
+          <h4>Call us on</h4>
+          <ul>
+            <li>For Institutional orders: <a href="tel:+919311248330">93112 48330</a> / <a href="tel:+919311248332">93112 48332</a></li>
+            <li>For any feedback / suggestion: <a href="tel:+919810739747">98107 39747</a></li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h4>Write to us</h4>
+          <ul>
+            <li><a href="mailto:admin@rotifactory.in">admin@rotifactory.in</a></li>
+            <li><a href="mailto:ops@rotifactory.in">ops@rotifactory.in</a></li>
+            <li><a href="mailto:factoryroti@gmail.com">factoryroti@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h4>WhatsApp</h4>
+          <a class="btn btn-ghost" href="https://wa.me/919310078213" rel="noopener" onclick="window.open(this.href,'_blank');return false;">Message us on WhatsApp</a>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="wrap">
-      <div class="eyebrow">Our Core Team</div>
-      <h2>Food team, quality jobs, trained staff</h2>
-      <p class="lede">Our team primarily comprise of young boys who joined us at inception and have trained with us over the last decade. Most of them are from humble backgrounds from Rajasthan, UP, Bihar, Assam &amp; Uttarakhand. They have been carefully chosen &amp; trained adequately so that they understand the fine nuances of our Food Industry. Also, they all make a great team together!</p>
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="img/logo.png" alt="Roti Factory" class="footer-logo">
+        <p class="footer-tag">Premium bulk Roti supplier in Delhi NCR since 2014.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('about').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">About</a></li>
+          <li><a href="#products" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('products').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Products</a></li>
+          <li><a href="#quality" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('quality').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Quality</a></li>
+          <li><a href="#team" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('team').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Team</a></li>
+          <li><a href="#clients" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('clients').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Clients</a></li>
+          <li><a href="#contact" onclick="var _sb=document.documentElement.style.scrollBehavior; document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,document.getElementById('contact').offsetTop); document.documentElement.style.scrollBehavior=_sb; return false;">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reach Us</h4>
+        <p><a href="https://share.google/IOlHJ1TjLToH0IFwC" rel="noopener">169, Udyog Vihar Phase 1, Sector 20, Gurugram, Haryana 122016</a></p>
+        <p><a href="tel:+919311248330">93112 48330</a> · <a href="tel:+919810739747">98107 39747</a></p>
+        <p><a href="mailto:admin@rotifactory.in">admin@rotifactory.in</a></p>
+        <p><a href="mailto:ops@rotifactory.in">ops@rotifactory.in</a></p>
+        <p><a href="mailto:factoryroti@gmail.com">factoryroti@gmail.com</a></p>
+      </div>
     </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="wrap">
-    <div>Copyright &copy; 2026 Roti Factory - All Rights Reserved.</div>
-    <div><a href="https://share.google/IOlHJ1TjLToH0IFwC" rel="noopener" title="View on Google Maps">169, Udyog Vihar Phase 1, Sector 20, Gurugram, Haryana 122016</a></div>
-    <div><a href="contact-us.html">Contact us</a></div>
+    <div class="footer-bottom">
+      <span>© 2026 Roti Factory — All Rights Reserved.</span>
+      <span>Built with care in Gurugram, India.</span>
+    </div>
   </div>
 </footer>
-<script src="script.js?v=5"></script>
+
+<script src="script.js?v=14"></script>
+
+<!-- WhatsApp floating button -->
+<a class="whatsapp-fab" href="https://wa.me/919310078213" rel="noopener" aria-label="Chat on WhatsApp" title="Message us on WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="fab-pulse"></span>
+</a>
 </body>
 </html>
